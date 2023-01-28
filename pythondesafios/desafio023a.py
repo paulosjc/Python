@@ -1,0 +1,8 @@
+n = str(input('Digite um número entre 0 e 9999 com 4 dígitos: '))
+n_splitted = n.split()
+print(n)
+print(len(n))
+print('Unidades: {}'.format(n[len(n) - 1]))
+print('Dezenas: {}'.format(n[len(n) - 2]))
+print('Centenas: {}'.format(n[len(n) - 3]))
+print('Milhares: {}'.format(n[len(n) - 4]))
