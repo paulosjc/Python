@@ -1,11 +1,9 @@
-s = 0
-lista = []
+soma = 0
+cont = 0
 
-for c in range(1, 501):
-    if c % 2 != 0:
-        if c % 3 == 0:
-            s += c
-            lista.append(c)
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        cont += 1
+        soma += c
 
-print(c)
-print(lista)
+print('A soma de todos os {} valores que satisfazem a condição é: {}'.format(cont, soma))
