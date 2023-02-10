@@ -1,4 +1,4 @@
-'''lanche = ('hambúrguer', 'suco', 'pizza', 'pudim', 'batata frita')
+lanche = ('hambúrguer', 'suco', 'pizza', 'pudim', 'batata frita')
 
 for c in lanche:
     print(c)
@@ -12,7 +12,7 @@ print(lanche[:2])
 print(lanche[-2])
 print(lanche[-3:])
 
-for comida in lanche:
+'''for comida in lanche:
     print(f'Eu vou comer {comida}')
 
 for cont in range(0, len(lanche)):
@@ -21,7 +21,7 @@ for cont in range(0, len(lanche)):
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')
 
-print(sorted(lanche))'''
+print(sorted(lanche))
 
 a = (2, 5, 4)
 b = (5, 8, 1, 2)
@@ -34,4 +34,4 @@ print(c.index(8))
 print(d.index(5, 1))
 
 pessoa = ('Paulo', 43, 'M', 80)
-print(pessoa)
+print(pessoa)'''
